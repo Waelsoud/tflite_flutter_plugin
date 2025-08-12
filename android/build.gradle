@@ -22,11 +22,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace = "com.example.nanocellulose_app.tflite_flutter"
+    namespace "com.tfliteflutter.tflite_flutter_plugin"
     compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
