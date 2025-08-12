@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace = "NanoCelluloseApp.tflite_flutter"
+    namespace = "com.example.nanocellulose_app.tflite_flutter"
     compileSdkVersion 34
 
     defaultConfig {
